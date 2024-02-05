@@ -1,0 +1,104 @@
+/*!
+ * @smastrom/variables
+ * @description Collection of CSS variables
+ * @author Simone Mastromattei smastrom@proton.me
+ * @date 2024-02-05T19:45:15.690Z 
+ * @link https://github.com/smastrom/variables
+ */
+:root {
+  --z-default: 0;
+  --z-behind: -1;
+  --z-max: 2147483647;
+
+  --z1: 5;
+  --z2: 10;
+  --z3: 15;
+  --z4: 20;
+  --z5: 25;
+  --z6: 30;
+}
+
+:root {
+  --f07: 0.75rem;
+  --f08: 0.825rem;
+  --f09: 0.925rem;
+  --f1: 1rem;
+  --f2: 1.125rem;
+  --f3: 1.25rem;
+  --f4: 2rem;
+  --f5: 2.25rem;
+  --f6: 2.5rem;
+  --f7: 3rem;
+  --f8: 4rem;
+}
+
+:root {
+  --lh-normal: normal;
+
+  --lh0: 0;
+  --lh1: 1.125;
+  --lh2: 1.25;
+  --lh3: 1.325;
+  --lh4: 1.4;
+  --lh5: 1.5;
+  --lh6: 1.625;
+}
+
+:root {
+  --b-none: 0px;
+
+  --b1: 1px;
+  --b2: 2px;
+  --b3: 4px;
+}
+
+:root {
+  --r-none: 0px;
+  --r-max: 1e5px;
+
+  --r1: 2px;
+  --r2: 5px;
+  --r3: 0.5rem;
+  --r4: 1rem;
+}
+
+:root {
+  --s0: 0px;
+  --s05: 0.5rem;
+  --s1: 1rem;
+  --s2: 1.25rem;
+  --s3: 1.875rem;
+  --s4: 2rem;
+  --s5: 2.5rem;
+  --s6: 2.75rem;
+  --s7: 3rem;
+  --s8: 3.5rem;
+  --s9: 4rem;
+  --s10: 5rem;
+}
+
+:root {
+  --header0: 60px;
+  --header1: 80px;
+  --header2: 100px;
+
+  --sidebar0: 270px;
+  --sidebar1: 300px;
+
+  --container0: 900px;
+  --container1: 1100px;
+  --container2: 1240px;
+  --container3: 1360px;
+  --container4: 1440px;
+  --container5: 1600px;
+  --container6: 1680px;
+
+  --copy0: 625px;
+  --copy1: 700px;
+  --copy2: 800px;
+
+  --icon0: 1rem;
+  --icon1: 1.5rem;
+  --icon2: 2rem;
+  --icon3: 2.5rem;
+}

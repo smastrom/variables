@@ -1,0 +1,15 @@
+{
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": "README.md",
+      "options": {
+        "trailingComma": "none",
+        "printWidth": 80
+      }
+    }
+  ]
+}

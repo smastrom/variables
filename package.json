@@ -1,0 +1,30 @@
+{
+  "name": "@smastrom/variables",
+  "version": "0.9.0",
+  "private": false,
+  "keywords": [
+    "css",
+    "css-variables"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smastrom/variables.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Simone Mastromattei",
+    "email": "smastrom@proton.me"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "build": "bun build.js"
+  },
+  "lint-staged": {
+    "*.{css,js,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.4",
+    "husky": "^9.0.6",
+    "prettier": "^3.2.4"
+  }
+}
